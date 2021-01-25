@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 10</title>
+    <style>
+        .div1
+        {
+            /*
+            border-style: dotted;
+            border-width: 5px;
+            border-color: blue;
+               */
+               border:  5px solid  blue; /*  meme chose en resumer*/
+               border-radius: 25px;
+               padding: 10px; /* marge intrene */
+               margin-bottom: 15px; /* margine externe en bas */
+        }
+        .div2
+        {
+            border:  5px solid  rgb(227, 26, 22);
+               border-radius: 25px;
+               padding: 10px;
+        }
+        /* au passage de la souris */ 
+      .div1:hover
+      {
+        background-color:salmon;
+      }
+     .div2:hover
+     {
+        background-color:#23c099;
+
+     }
+    h1{
+        text-align: center;
+        font-size: 150%;
+        border:1px solid gray;
+        width: 50%;
+        border-radius: 25px;
+        background-color:lightblue;
+        color: white;
+        text-transform: uppercase;
+        font-family:  'Times New Roman';
+        
+    }
+p{
+    text-align: justify;
+    border:2px solid gray;
+    padding: 5px;
+    text-indent: 20px;
+}
+img{
+    width:200px;
+    height:100px;
+    /*float: left;*/
+}
+ #id1:hover
+ {
+    transform:scale(2);
+    transition: 1.5s;
+ }
+
+    </style>
+</head>
+<body>
+    <!-- Commentaire: exemple de div avec css -->
+    <div class="div1">
+        <h1 id="id1"> Titer 1 </h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde hic enim consequatur,
+             inventore tenetur, reprehenderit quam dolor ratione 
+            cumque tempora, doloribus architecto! Inventore, sed amet. 
+            Aliquid voluptatum itaque at aspernatur.
+        </p>
+    </div>
+    <div class="div2">
+        <h1> Titer </h1>
+       <img src="images/image2.PNG" alt="text alternative " title="image" title="logo " >
+   <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo veniam, nesciunt ab 
+        voluptatem porro hic dicta incidunt doloribus enim 
+        atque at illum error modi. Autem soluta ea accusantium porro?
+    </p>
+
+    </div>
+</body>
+</html>
