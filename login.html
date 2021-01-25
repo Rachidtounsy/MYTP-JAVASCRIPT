@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login test</title>
+</head>
+<body>
+    <h1> Vidio 9: </h1>
+    <table>
+        <tr>
+            <td colspan="2"><h1> Login From </h1> </td>
+        </tr>
+        <tr>
+            <td> Username :</td>
+            <td>  <input id="textUsername_Login_1" value="name is"></td>
+        </tr>
+        <tr>
+          <td> Password : </td>
+          <td>
+            <input id="textPassword_login_1" type="password" value="123456">
+          </td>
+        </tr>
+        <tr>
+            <td  colspan="2"> 
+                <button  onclick="showUserAndPass()"> Login </button>
+            </td>
+        </tr>
+        <tr> 
+       <td colspan="2"> 
+           <h2 id="lbl_msg_login_1"> </h2>
+       </td>
+        </tr>
+    </table>
+ <script>
+     // Vidio 9:
+
+function showUserAndPass()
+{
+   var user=window.textUsername_Login_1.value;
+   var pass=window.textPassword_login_1.value;
+   var mesg_1= "<hr>"+ user+ "<hr>"+pass+ "<hr>";
+   window.lbl_msg_login_1.innerHTML=mesg_1;
+}
+ </script>
+
+
+
+
+
+    <script src="js2.js"></script>
+</body>
+</html>
