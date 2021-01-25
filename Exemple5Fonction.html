@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Exemple 5 Fonction</title>
+ <script src="fichier5F.js"></script>
+</head>
+<body>
+  <input type="button" value="OK"   
+  style="background-color: red ;width: 100px;height: 50px; color:black"   
+  onclick="test(10,10,30)"
+>
+  <!--
+onclick="test(10,10,30)"
+ondblclick="alert('Salam ')"
+onmouseover="alert('Bonjour')"
+  onmouseout="alert('💛 ')"
+-->
+<script>
+ var s="Bojour";
+ var i=s.length;
+
+ var cp=0;
+ for(i=0;i<s.length;i++)
+ {
+   if(s[i]=='o')
+   {
+     cp++;
+   }
+ }
+ alert(cp);
+ alert(i);
+ var t=s.indexOf('o');
+ alert(t);
+ var b=s.indexOf('o',2);
+ alert(b);
+</script>
+</body>
+</html>
